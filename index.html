@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI 工作流提示词库（中文免费版）</title>
+  <meta name="description" content="免费中文 AI 工作流提示词库，覆盖小红书图文、会议纪要、客户方案、PPT 大纲、课程大纲、SOP、复盘和自检。">
+  <link rel="canonical" href="https://ronnie2025.github.io/ai-workflow-prompts-zh/">
+  <meta property="og:title" content="AI 工作流提示词库（中文免费版）">
+  <meta property="og:description" content="复制 16 条中文 AI 工作流提示词，把重复任务沉淀成可复用流程。">
+  <meta property="og:url" content="https://ronnie2025.github.io/ai-workflow-prompts-zh/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "AI 工作流提示词库（中文免费版）",
+    "description": "免费中文 AI 工作流提示词库，覆盖内容创作、会议管理、客户方案、PPT、课程、SOP 和复盘。",
+    "url": "https://ronnie2025.github.io/ai-workflow-prompts-zh/",
+    "isAccessibleForFree": true,
+    "inLanguage": "zh-CN"
+  }
+  </script>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #101828;
+      --muted: #667085;
+      --line: #d9e2ef;
+      --bg: #f6f8fb;
+      --panel: #ffffff;
+      --blue: #155eef;
+      --green: #0f8f6f;
+      --deep: #0d1b2a;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: var(--ink);
+      background: var(--bg);
+      line-height: 1.66;
+    }
+    a { color: inherit; }
+    .wrap {
+      width: min(1100px, calc(100% - 36px));
+      margin: 0 auto;
+    }
+    header {
+      padding: 64px 0 48px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(180deg, #fff 0%, #eef4ff 100%);
+    }
+    .eyebrow {
+      display: inline-flex;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(15,143,111,.22);
+      background: rgba(15,143,111,.09);
+      color: var(--green);
+      font-size: 14px;
+      font-weight: 850;
+    }
+    h1 {
+      max-width: 820px;
+      margin: 18px 0 14px;
+      font-size: clamp(40px, 6vw, 72px);
+      line-height: 1.05;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 0 0 18px;
+      font-size: 28px;
+      line-height: 1.22;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 1.25;
+    }
+    p { margin: 0; }
+    .lead {
+      max-width: 720px;
+      color: var(--muted);
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .btn {
+      min-height: 46px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 18px;
+      border-radius: 8px;
+      border: 1px solid transparent;
+      text-decoration: none;
+      font-weight: 850;
+    }
+    .btn-primary { background: var(--blue); color: #fff; }
+    .btn-dark { background: var(--deep); color: #fff; }
+    .btn-line { background: #fff; border-color: var(--line); color: var(--ink); }
+    main {
+      padding: 44px 0 60px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+    .card,
+    .panel {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 18px;
+    }
+    .card {
+      min-height: 145px;
+      text-decoration: none;
+    }
+    .card p,
+    .panel p,
+    li {
+      color: #303846;
+    }
+    .panel {
+      margin-top: 20px;
+      padding: 24px;
+    }
+    pre {
+      overflow-x: auto;
+      margin: 14px 0 0;
+      padding: 16px;
+      border-radius: 8px;
+      background: var(--deep);
+      color: #e2e8f0;
+      white-space: pre-wrap;
+      font: 14px/1.65 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .cta {
+      border-color: rgba(21,94,239,.22);
+      background: #eef4ff;
+    }
+    @media (max-width: 900px) {
+      .grid { grid-template-columns: repeat(2, 1fr); }
+      .btn { width: 100%; }
+    }
+    @media (max-width: 620px) {
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 40px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <span class="eyebrow">中文免费版</span>
+      <h1>AI 工作流提示词库</h1>
+      <p class="lead">复制 16 条中文 AI 工作流提示词，把小红书图文、会议纪要、客户方案、PPT、课程、SOP 和复盘变成可重复流程。</p>
+      <div class="actions">
+        <a class="btn btn-primary" href="prompts.md">打开完整 Markdown</a>
+        <a class="btn btn-line" href="#starter">先复制 4 条高频提示词</a>
+        <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html">看资料包样品</a>
+        <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh">购买 99 元完整包</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="grid">
+        <a class="card" href="#xiaohongshu"><h3>小红书图文</h3><p>长文、课程笔记、经验复盘转图文脚本。</p></a>
+        <a class="card" href="#meeting"><h3>会议待办</h3><p>会议记录转决议、责任人、截止时间。</p></a>
+        <a class="card" href="#proposal"><h3>客户方案</h3><p>客户资料转一页可汇报方案初稿。</p></a>
+        <a class="card" href="#ppt"><h3>PPT 大纲</h3><p>先搭叙事线和页级结构，再做页面。</p></a>
+      </section>
+
+      <section id="starter" class="panel">
+        <h2>先复制 4 条高频提示词</h2>
+        <p>下面 4 条覆盖最常见的 ToC 和轻交付场景。更多提示词见完整 Markdown。</p>
+      </section>
+
+      <section id="xiaohongshu" class="panel">
+        <h2>长文转小红书图文</h2>
+        <pre>你是一个小红书图文策划。
+
+请把下面这篇长文拆成 1 组 3:4 图文脚本。
+
+要求：
+- 8 页以内
+- 每页一个核心信息
+- 标题直接，不使用夸张承诺
+- 适合知识型读者
+- 最后一页给行动建议
+
+输出格式：
+页码｜页面标题｜页面正文｜配图建议</pre>
+      </section>
+
+      <section id="meeting" class="panel">
+        <h2>会议记录转行动清单</h2>
+        <pre>你是一个项目经理。
+
+请把下面会议记录整理成行动清单。
+
+只输出：
+1. 已决定事项
+2. 待确认问题
+3. 责任人
+4. 截止时间
+5. 下次会议前必须完成的动作
+
+如果原文没有责任人或时间，请标记为“待确认”，不要编造。</pre>
+      </section>
+
+      <section id="proposal" class="panel">
+        <h2>客户资料转方案初稿</h2>
+        <pre>你是一个 B2B 解决方案顾问。
+
+请根据客户资料输出一版方案初稿。
+
+要求：
+- 先还原客户真实需求
+- 再判断当前问题属于业务问题、流程问题、数据问题还是工具问题
+- 不要直接堆功能
+- 输出一页可汇报结构
+
+输出：
+1. 客户背景
+2. 核心问题
+3. 现有阻碍
+4. 建议方案
+5. 交付边界
+6. 下一步动作</pre>
+      </section>
+
+      <section id="ppt" class="panel">
+        <h2>PPT 大纲生成</h2>
+        <pre>你是一个商业汇报 PPT 策划。
+
+请把下面材料整理成 PPT 大纲。
+
+要求：
+- 先给整体叙事线
+- 再按页输出
+- 每页只表达一个结论
+- 不要写成论文
+
+输出格式：
+页码｜页面标题｜核心结论｜内容要点｜建议图表</pre>
+      </section>
+
+      <section class="panel cta">
+        <h2>完整资料包补什么</h2>
+        <p>免费仓库只提供可复制提示词。完整包会补齐 7 日搭建路线、更多模板、交付检查清单、样品文档和复盘方法。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh">购买 99 元完整包</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html">先看资料包样品</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html">免费生成自己的模板</a>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
+
