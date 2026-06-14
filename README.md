@@ -39,13 +39,13 @@ Free Chinese AI workflow prompt library for creators, teachers, consultants, and
 15. 复盘提示词
 16. 下一步行动拆解
 
-## 付费资料包
+## 相关资源
 
 免费仓库只提供可复制提示词。完整资料包补齐 7 日搭建路线、提示词模板库、交付检查清单、样品文档、付款和交付说明。
 
 - 资料包样品: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html
-- 99 元完整包订单页: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh
 - 免费模板生成器: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html
+- 99 元完整包订单页: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh
 
 Paid ZIP files are intentionally not included in this public repository.
 
