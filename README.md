@@ -11,7 +11,7 @@
 
 ## 一句话介绍
 
-Free Chinese AI workflow prompt library for creators, teachers, consultants, and small teams; includes reusable prompts for Xiaohongshu content, meeting action items, client proposals, PPT outlines, SOPs, and retrospectives.
+Free Chinese AI workflow prompt library for creators, teachers, consultants, and small teams; includes reusable prompts for Xiaohongshu content, meeting action items, client proposals, PPT outlines, SOPs, retrospectives, and an English AI Workflow Diagnostic Advisor prompt.
 
 ## 适合谁
 
@@ -38,6 +38,7 @@ Free Chinese AI workflow prompt library for creators, teachers, consultants, and
 14. 输出自检
 15. 复盘提示词
 16. 下一步行动拆解
+17. AI Workflow Diagnostic Advisor（英文）
 
 ## 相关资源
 

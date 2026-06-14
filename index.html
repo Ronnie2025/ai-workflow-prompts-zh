@@ -4,17 +4,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>AI 工作流提示词库（中文免费版）</title>
-  <meta name="description" content="免费中文 AI 工作流提示词库，覆盖小红书图文、会议纪要、客户方案、PPT 大纲、课程大纲、SOP、复盘和自检。">
+  <meta name="description" content="免费中文 AI 工作流提示词库，覆盖小红书图文、会议纪要、客户方案、PPT 大纲、课程大纲、SOP、复盘、自检和英文 AI Workflow Diagnostic Advisor。">
   <link rel="canonical" href="https://ronnie2025.github.io/ai-workflow-prompts-zh/">
   <meta property="og:title" content="AI 工作流提示词库（中文免费版）">
-  <meta property="og:description" content="复制 16 条中文 AI 工作流提示词，把重复任务沉淀成可复用流程。">
+  <meta property="og:description" content="复制中文 AI 工作流提示词和英文 AI Workflow Diagnostic Advisor，把重复任务沉淀成可复用流程。">
   <meta property="og:url" content="https://ronnie2025.github.io/ai-workflow-prompts-zh/">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     "name": "AI 工作流提示词库（中文免费版）",
-    "description": "免费中文 AI 工作流提示词库，覆盖内容创作、会议管理、客户方案、PPT、课程、SOP 和复盘。",
+    "description": "免费中文 AI 工作流提示词库，覆盖内容创作、会议管理、客户方案、PPT、课程、SOP、复盘和英文工作流诊断 prompt。",
     "url": "https://ronnie2025.github.io/ai-workflow-prompts-zh/",
     "isAccessibleForFree": true,
     "inLanguage": "zh-CN"
@@ -163,10 +163,11 @@
     <div class="wrap">
       <span class="eyebrow">中文免费版</span>
       <h1>AI 工作流提示词库</h1>
-      <p class="lead">复制 16 条中文 AI 工作流提示词，把小红书图文、会议纪要、客户方案、PPT、课程、SOP 和复盘变成可重复流程。</p>
+      <p class="lead">复制中文 AI 工作流提示词，把小红书图文、会议纪要、客户方案、PPT、课程、SOP 和复盘变成可重复流程。新增英文 AI Workflow Diagnostic Advisor，可用于英文 prompt 平台投稿。</p>
       <div class="actions">
         <a class="btn btn-primary" href="prompts.md">打开完整 Markdown</a>
         <a class="btn btn-line" href="#starter">先复制 4 条高频提示词</a>
+        <a class="btn btn-line" href="#workflow-diagnostic-advisor">英文诊断 Prompt</a>
         <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html">免费生成自己的模板</a>
         <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html">看资料包样品</a>
       </div>
@@ -180,6 +181,7 @@
         <a class="card" href="#meeting"><h3>会议待办</h3><p>会议记录转决议、责任人、截止时间。</p></a>
         <a class="card" href="#proposal"><h3>客户方案</h3><p>客户资料转一页可汇报方案初稿。</p></a>
         <a class="card" href="#ppt"><h3>PPT 大纲</h3><p>先搭叙事线和页级结构，再做页面。</p></a>
+        <a class="card" href="#workflow-diagnostic-advisor"><h3>Workflow Diagnostic</h3><p>English prompt for diagnosing reusable AI workflows.</p></a>
       </section>
 
       <section id="starter" class="panel">
@@ -255,6 +257,41 @@
 
 输出格式：
 页码｜页面标题｜核心结论｜内容要点｜建议图表</pre>
+      </section>
+
+      <section id="workflow-diagnostic-advisor" class="panel">
+        <h2>AI Workflow Diagnostic Advisor</h2>
+        <pre>Act as an AI Workflow Diagnostic Advisor.
+
+Your job is to diagnose an existing workflow that already happens in the user's work, identify where AI can help, and design the smallest reusable workflow that can be tested immediately.
+
+Ask the user to provide:
+- The goal of the workflow
+- The current inputs
+- The current tools or apps used
+- The expected final deliverable
+- The steps that take the most time
+- The steps that often fail or require rework
+- Any constraints, privacy concerns, or quality standards
+
+Then return:
+1. Workflow summary
+2. Current bottlenecks
+3. Steps that must remain human-led
+4. Steps that can be AI-assisted
+5. Reusable input fields
+6. Recommended output format
+7. Quality checks before the output is used
+8. The top 3 workflow fixes, ranked by impact and effort
+9. A 48-hour minimum viable experiment
+10. A reusable prompt template for the next run
+
+Rules:
+- Do not suggest automation before understanding the current workflow.
+- Do not invent missing facts.
+- Mark unknown information as "needs confirmation".
+- Prefer small, testable workflow improvements over complex systems.
+- If the user writes in Chinese, respond in Chinese.</pre>
       </section>
 
       <section class="panel cta">
