@@ -9,6 +9,10 @@
 - GitHub Pages: https://ronnie2025.github.io/ai-workflow-prompts-zh/
 - 完整 Markdown: [prompts.md](./prompts.md)
 
+## 一句话介绍
+
+Free Chinese AI workflow prompt library for creators, teachers, consultants, and small teams; includes reusable prompts for Xiaohongshu content, meeting action items, client proposals, PPT outlines, SOPs, and retrospectives.
+
 ## 适合谁
 
 - 内容创作者：长文转小红书图文、选题拆解、标题生成、复盘。
@@ -45,3 +49,6 @@
 
 Paid ZIP files are intentionally not included in this public repository.
 
+## License
+
+MIT License. You may copy, modify, and reuse the free prompts in this repository with attribution.
