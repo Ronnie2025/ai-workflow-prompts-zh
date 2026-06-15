@@ -4,6 +4,8 @@
 
 这里的提示词不是一次性聊天技巧，而是围绕可复用工作流设计：输入材料、处理步骤、输出格式、人工检查点都要固定下来。
 
+![AI 工作流提示词库预览](./preview.png)
+
 ## 在线预览
 
 - GitHub Pages: https://ronnie2025.github.io/ai-workflow-prompts-zh/
