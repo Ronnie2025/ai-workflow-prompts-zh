@@ -8,6 +8,7 @@
 
 - GitHub Pages: https://ronnie2025.github.io/ai-workflow-prompts-zh/
 - 完整 Markdown: [prompts.md](./prompts.md)
+- 外部收录记录: [ChatGPT-Shortcut PR #99](https://github.com/rockbenben/ChatGPT-Shortcut/pull/99)
 
 ## 一句话介绍
 
@@ -46,6 +47,9 @@ Free Chinese AI workflow prompt library for creators, teachers, consultants, and
 
 - 资料包样品: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html
 - 免费模板生成器: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html
+- 免费 PPT 大纲生成器: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/ppt-outline-generator.html?source=github-prompts-zh
+- 免费小红书标题评分器: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xiaohongshu-title-scorer.html?source=github-prompts-zh
+- 免费 AI 远程数据兼职适配评分器: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/ai-remote-job-fit-checker.html?source=github-prompts-zh
 - 99 元完整包订单页: https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh
 
 Paid ZIP files are intentionally not included in this public repository.

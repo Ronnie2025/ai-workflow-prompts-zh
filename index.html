@@ -61,6 +61,20 @@
       font-size: 14px;
       font-weight: 850;
     }
+    .trust {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-left: 10px;
+      padding: 7px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(21,94,239,.22);
+      background: rgba(21,94,239,.08);
+      color: var(--blue);
+      font-size: 14px;
+      font-weight: 850;
+      text-decoration: none;
+    }
     h1 {
       max-width: 820px;
       margin: 18px 0 14px;
@@ -155,6 +169,7 @@
     @media (max-width: 620px) {
       .grid { grid-template-columns: 1fr; }
       h1 { font-size: 40px; }
+      .trust { margin: 10px 0 0; border-radius: 8px; }
     }
   </style>
 </head>
@@ -162,6 +177,7 @@
   <header>
     <div class="wrap">
       <span class="eyebrow">中文免费版</span>
+      <a class="trust" href="https://github.com/rockbenben/ChatGPT-Shortcut/pull/99">已被 ChatGPT-Shortcut 项目合并收录</a>
       <h1>AI 工作流提示词库</h1>
       <p class="lead">复制中文 AI 工作流提示词，把小红书图文、会议纪要、客户方案、PPT、课程、SOP 和复盘变成可重复流程。新增英文 AI Workflow Diagnostic Advisor，可用于英文 prompt 平台投稿。</p>
       <div class="actions">
@@ -187,6 +203,17 @@
       <section id="starter" class="panel">
         <h2>先复制 4 条高频提示词</h2>
         <p>下面 4 条覆盖最常见的 ToC 和轻交付场景。更多提示词见完整 Markdown。</p>
+      </section>
+
+      <section class="panel">
+        <h2>先用免费工具跑一遍</h2>
+        <p>如果不是只想复制提示词，可以先用下面几个工具把输入、评分和订单场景跑出来，再决定是否购买资料包。</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html?source=github-prompts-zh">生成工作流模板</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/ppt-outline-generator.html?source=github-prompts-zh">生成 PPT 大纲</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/xiaohongshu-title-scorer.html?source=github-prompts-zh">小红书标题评分</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/ai-remote-job-fit-checker.html?source=github-prompts-zh">AI 远程兼职适配</a>
+        </div>
       </section>
 
       <section id="xiaohongshu" class="panel">
@@ -301,6 +328,7 @@ Rules:
           <a class="btn btn-primary" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/order.html?plan=99&source=github-prompts-zh">购买 99 元完整包</a>
           <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/sample.html">先看资料包样品</a>
           <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/template-generator.html">免费生成自己的模板</a>
+          <a class="btn btn-line" href="https://ronnie2025.github.io/ai-agent-workbench-starter-pack/virtual-products.html?source=github-prompts-zh">查看低价资料货架</a>
         </div>
       </section>
     </div>
